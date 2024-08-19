@@ -1,0 +1,186 @@
+body {
+  background-color: lightgray;
+  margin: 0px;
+  color: black;
+}
+#navbar {
+  background-color: white;
+  /* background-color: gray; */
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  z-index: 1000;
+  display: flex;
+  /* margin-block: 10px; */
+  /* position: relative; */
+  /* margin-bottom: 20px; */
+}
+main {
+  padding-top: 100px;
+}
+#menu {
+  margin-top: 30px;
+  margin-left: 70px;
+  margin-right: 50px;
+}
+
+#dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 200px;
+}
+#dropdown-menu a {
+  color: black;
+  padding: 10px 25px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#dropdown-menu a:hover {
+  color: #ff7300;
+}
+
+#mumia {
+  cursor: pointer;
+  display: flex;
+  /* margin-top: 10px;*/
+  /* margin-left: 90px;  */
+  /* font-size: 20px; */
+}
+#mumiah1 {
+  font-size: 50px;
+  /* margin-inline: 20px; */
+  margin-top: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#mumiaimg {
+  margin-top: 20px;
+}
+
+#searchdiv {
+  position: relative;
+  display: flex;
+  width: 557px;
+  height: 50px;
+  margin-top: 25px;
+  margin-left: 50px;
+}
+#searchinput {
+  width: 90%;
+  padding: 13px;
+  padding-left: 50px; /* Adjust based on the icon size */
+  font-size: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+#searchicon {
+  position: absolute;
+  margin-top: 8px;
+  margin-left: 13px;
+  width: 30px;
+  height: 30px;
+}
+#serchbtn {
+  width: 100px;
+  font-size: 22px;
+  color: white;
+  margin-inline: 20px;
+  border-radius: 7px;
+  background-color: #ff7300;
+  cursor: pointer;
+}
+
+#dropdown {
+  color: black;
+  /* margin-inline: 40px; */
+}
+#dropdown .dropbtn {
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  font-size: 30px;
+  color: black;
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
+  transition-duration: 0.4s;
+  background-color: inherit;
+  margin-top: 25px;
+  margin-inline: 30px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 200px;
+}
+.dropdown-content a {
+  color: black;
+  padding: 20px 20px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.dropdown-content a:hover {
+  background-color: #ff7300;
+}
+#dropdown:hover .dropdown-content {
+  display: block;
+}
+#dropdown:hover .dropbtn {
+  color: #ff7300;
+}
+/* //////// */
+
+#aboutlink {
+  display: flex;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: black;
+  margin-top: 15px;
+  font-size: 35px;
+  /* text-align: center; */
+  padding-top: 5px;
+}
+
+#cart {
+  display: flex;
+  background-color: aqua;
+  margin-inline: 50px;
+}
+#cart p {
+  font-size: 30px;
+}
+
+#cart-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  cursor: pointer;
+}
+.cart-icon {
+  width: 50px;
+  height: 50px;
+  fill: #806565;
+}
+.cart-badge {
+  /* display: none; */
+  position: absolute;
+  text-align: center;
+  margin-left: 6px;
+  margin-bottom: 7px;
+  color: #ff7300;
+  border-radius: 50%;
+  padding: 10px 10px;
+  font-size: 20px;
+}
+#cart-container p {
+  font-size: 30px;
+}

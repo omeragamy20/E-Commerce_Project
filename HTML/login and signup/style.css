@@ -1,0 +1,142 @@
+body{
+  text-align: center;
+  margin-top: 50px;
+}
+img {
+  /* background-color: red;
+  align-items: center;
+  /* display: flex; */
+  /* height: 90px; */
+  width: 100px;
+  height: 100px;
+  /* margin-left: 210px; */
+  /* justify-content: center;
+  align-items: center;
+  border-radius: 50%; */
+}
+#Mummy-div {
+  display: inline-block;
+}
+#big-div {
+  /* background-color: blue; */
+  width: 30%;
+  transform: translateX(400px);
+  display: inline-block;
+  /* margin-left: 50px; */
+  /* flex-direction: column; Stack child divs vertically */
+  /* justify-content: center; Center child divs vertically */
+  align-items: center; /* Center child divs horizontally */
+  height: 100px; /* Example height to demonstrate vertical centering */
+  text-align: center; /* Center text content */
+}
+
+#star {
+  /* float: left; */
+  font-size: 80px;
+  color: #ff8a33;
+  /* margin-left: 40%; */
+}
+#sitename {
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 2px;
+  /* margin-left: 40%; */
+}
+p {
+  font-size: larger;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.description {
+  /* margin-left: 25%; */
+  background-color: red;
+  /* width: 30%; */
+}
+input {
+  padding-inline: 10px;
+  /* margin-left: ; */
+  width: 400px;
+  height: 50px;
+  border-radius: 5px;
+  /* border: 5px; */
+  margin-top: 15px;
+  border-color: #ff8a33;
+}
+#btnlog,
+#btnsign,
+#signup {
+  margin-top: 50px;
+  /* margin-left: 25%; */
+  border: 3px none solid;
+  /* display: block; */
+  text-align: center;
+  border-radius: 5px;
+  background-color: #ff8a33;
+  font-size: x-large;
+  width: 400px;
+  height: 50px;
+}
+
+#btnlog:hover {
+  /* width: 600px; */
+  transform: scale(1.1);
+  transition: all 0.5s linear;
+}
+#google:hover {
+  transform: scale(1.1);
+  transition: all 0.5s linear;
+}
+/* #btnsign {
+  margin-top: 25px;
+  margin-left: 25%;
+  display: block;
+  border-radius: 5px;
+  background-color: orange;
+  font-size: x-large;
+  width: 300px;
+  height: 40px;
+} */
+fieldset {
+  margin-inline: 30%;
+  border: 12px none white;
+}
+#google {
+  
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  width: 400px;
+  height: 50px;
+  background-color: white;
+  border: 3px solid #ff8a33;
+  border-radius: 5px;
+  /* border-color: orange; */
+}
+#googleicon {
+  margin-top: 10px;
+  margin-left: 10px;
+  float: left;
+  font-size: 35px;
+  color: red;
+}
+#cir-google {
+  display: flex;
+  width: 60px;
+  border-radius: 50%;
+  background-color: white;
+  text-align: center;
+}
+#google-text {
+  user-select: none;
+  margin-right: 5px;
+}
+.hieroglyphic {
+  font-family: "Segoe UI Historic", "NewGardiner", sans-serif; /* Use a font that supports hieroglyphs */
+  font-size: 2em;
+}
+label {
+  color: white;
+  display: block;
+}
+#signup {
+  padding-right: 250px;
+}

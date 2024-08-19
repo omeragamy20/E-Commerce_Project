@@ -1,0 +1,53 @@
+#maen{
+    padding-top: 1px;
+    /* margin-top: 10   0px; */
+    /* background-color: #ff7300; */
+}
+/* ///////// */
+#sectionhead{
+    margin-top: 250px;
+    text-align: center;
+}
+#line{
+    display: inline-block;
+    width: 150px;
+    height: 15px;
+    background-color: #ff7300;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+}
+#sectionhead h1{
+    font-size: 55px;
+    font-family: cursive;
+}
+/* ///////// */
+#missionsec{
+    /* background-color: #ff7300; */
+    display: flex;
+    width: 100%;
+    /* height: 300px; */
+}
+#misionpar{
+    width: 50%;
+    /* height: 50%; */
+    padding-left: 150px;
+    padding-right: -200px;
+    text-align: left;
+}
+#misionpar h1{
+    font-size: 60px;
+    color: #ff7300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#misionpar p{
+    width: 80%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#misonimg{
+    padding-left: 150px;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+
+/* Omer Agamy Change in CSS files*/

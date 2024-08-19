@@ -1,0 +1,167 @@
+:root {
+    --dark: #313133;
+    --white2: #f1f1f2;
+    --white: #fff;
+    --white1: #a3a3a6;
+    --white3: #f1f1f2;
+    --orang: orange;
+  }
+  /*start class for used  */
+  
+  .float {
+    float: left;
+  }
+  .clear {
+    clear: both;
+  }
+  .uls {
+    list-style: none;
+    padding: 0;
+  }
+  .a {
+    text-decoration: none;
+    color: inherit;
+  }
+  .center {
+    text-align: center;
+    vertical-align: middle;
+  }
+  .white {
+    color: var(--white);
+    font-weight: bold;
+  }
+  /*end class for used  */
+  /* ===================================== */
+  
+  /* one class */
+  .one {
+    background-color: var(--dark);
+  }
+  .one-0 {
+    font-size: 1.25rem;
+  }
+  .one-1 {
+    position: relative;
+  }
+  .one-1 p {
+    color: var(--white3);
+    font-size: 0.75rem;
+  }
+  .one-1 [type="email"] {
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+  }
+  .one-1 [type="email"]:focus {
+    outline-color: var(--orang);
+  }
+  .one-1 i {
+    position: absolute;
+    top: 46%;
+    left: 25px;
+    color: var(--white1);
+  }
+  .one-1 label {
+    font-size: 12px;
+  }
+  .one-1 [type="button"] {
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 15px;
+  }
+  .one-1 [type="button"]:hover {
+    color: var(--orang);
+    border: 1px solid var(--orang);
+  }
+  .one-1 span {
+    color: var(--white);
+  }
+  .one-1 a {
+    color: var(--orang);
+  }
+  .one-1 a:hover {
+    text-decoration: underline;
+  }
+  
+  .down .p1 {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+    color: var(--white);
+    font-size: 14px;
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  .down .p2 {
+    display: block;
+    color: var(--white2);
+    text-align: center;
+    font-size: 12px;
+    margin-top: -40px;
+  }
+  .one-2 button {
+    margin-top: 18px;
+    padding: 10px;
+    background-color: inherit;
+    color: var(--white);
+    border: none;
+  }
+  .one-2 button:hover {
+    color: var(--orang);
+  }
+  /* end  one class */
+  
+  /* two class */
+  .second,
+  .third-footer,
+  .brand {
+    background-color: gray;
+  }
+  .second .second-1,
+  .second .second-2,
+  .second .second-3,
+  .second .second-4 {
+    width: calc(98% / 4);
+    padding: 5px;
+  }
+  .second .col label {
+    color: var(--white);
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .second .col ul li a {
+    text-decoration: none;
+    color: var(--white2);
+    font-size: 12px;
+  }
+  .second .col ul li a:hover {
+    text-decoration: underline;
+  }
+  /* end two class */
+  
+  /* start third (join us) footer */
+  .third-footer ul li a i {
+    margin-right: 50px;
+    padding: 5px 5px 10px 0;
+    color: var(--white);
+  }
+  .third-footer ul li a i:hover {
+    color: var(--orang);
+  }
+  /* end third footer 01125872075 */
+  /*  */
+  
+  .brand ul {
+    display: table-cell;
+    width: calc(98% / 8);
+    padding: 2rem 2rem 2rem 0;
+  }
+  .brand ul li a {
+    color: var(--white2);
+    font-size: 13px;
+    text-decoration: none;
+  }
+  .brand ul li a:hover {
+    text-decoration: underline;
+  }
+  
